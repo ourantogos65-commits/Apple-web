@@ -1,0 +1,368 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:24px ;
+}
+.nav-1{
+    display: flex;
+    align-items: centers;
+    justify-content:center;
+}
+.hero-1{
+ border-radius: 40px;
+width:100%;
+height:25px ;
+opacity:0.7;
+filter: blur(10px);
+margin: 0%;
+background:linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%) ;
+-webkit-fill-color: transparent;
+}
+
+   
+.hero-2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 80px;
+align-self: stretch;
+padding-top: 80px; 
+padding-left: 130px;
+padding-bottom: 60px;
+  background: rgba(245, 245, 247, 0.80);
+}
+
+.store{
+    background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Inter;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.01px; /* 118.205% */
+}
+.store2{
+    color: #6E6E73;
+
+font-family: Inter;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.01px; /* 118.205% */
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:145px ;
+   gap: 12px;
+}
+.card{
+display: flex;
+padding: 16px 8px;
+flex-direction: column;
+align-items: flex-start;
+flex-direction: column;
+  background: rgba(245, 245, 247, 0.80);
+align-items:center;
+
+}
+.card-container img{
+height: 78px;
+width: 120px;
+}
+.section-title{
+    display: flex;
+    flex-direction: column;
+    padding-bottom:60px;
+    background-color: #0090F7;
+    width: 100%;
+    height:600px;
+}
+.latest{
+    width: 100%;
+    gap:20px;
+    overflow-x: scroll;
+    padding:0px 140px;
+    padding-bottom: 60px;
+    background: rgba(245, 245, 247, 0.80);
+}
+
+.box-1{
+  display: flex;
+  padding-bottom: 24px;
+  gap: 4px;
+  width: 100%;
+}
+.box-1 h1{
+  background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 135px;
+line-height: 34px; /* 118.205% */
+}
+.box-1 h2{
+ font-size: 24px;
+color: #6E6E73;
+height: 34px;
+}
+.product-list{
+    display: flex;
+    gap: 20px;
+}
+.product-card{
+display: grid;
+position: relative;
+
+}
+.product-card img{
+display: flex;
+width: 480px;
+height: 500px;
+flex-direction: column;
+border-radius: 40px;
+}
+.product-card h3{
+    color: #B64400;
+    font-size: 12px;
+
+   
+}
+.product-card h4{
+    font-size: 26px;
+    color: #1D1D1F;
+}
+.product-card p{
+    color: #1D1D1F;
+    font-size: 18px;
+}
+.text-2{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.latest-2{
+    background: rgba(245, 245, 247, 0.80);
+    overflow-x: scroll;
+    display: block;
+    gap: 20px;
+    padding:0px 140px;
+    width: 100%;
+    padding-bottom: 60px;
+} 
+.cards-menu{
+    display: flex;
+    gap:20px ;
+    width: 150%;
+  
+
+}
+.menu {
+    height: 500px;
+    width: 313px;
+    background-color:#FFF;
+    border-radius: 20px; 
+     padding: 71px 38px 33px 28px;
+     
+}
+.item1{
+    background-image: url(./pro1.1.png);
+    height: 500px;
+   background-position: center;
+}
+.item1 h6{
+    width: 196px;
+    height: 66px;
+    font-size: 26px;
+    color: #1D1D1F;
+}
+.cards-menu img{
+    width: 230px;
+    height: 230px;
+}
+.menu h1{
+    font-size:12px ;
+    color: #B64400;
+   
+ 
+}
+.menu h2{
+    font-size: 18px;
+    padding-top: 6px;
+}
+.menu-text{
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+   
+}
+.menu p{
+    font-size: 14px;
+    color:#1D1D1F ; 
+    padding-top: 32px;
+}
+.item2-1{
+     background-image: url(./pro2.1.png);
+}
+.item2-1 h1{
+    color: #1D1D1F;
+    font-size: 26px;
+     width:300px;
+     height: 66px;
+}
+.latest-3{
+    background: rgba(245, 245, 247, 0.80);
+    overflow-x: scroll;
+    display:block;
+    gap: 20px;
+    padding:0px 140px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.card3-menu{
+    display: flex;
+    gap: 20px;
+    width: 150%;
+}
+.menu3{
+    height: 500px;
+    width: 480px;
+    background-color:#FFF;
+    border-radius: 20px; 
+     padding: 71px 38px 33px 28px;
+     
+}
+.item3-3 {
+    background-image:url(./pro3.2.png);
+}
+.item3-1{
+    background-image: url(./pro3.1.png);
+}
+.item3-1 h1{
+width: 305px;
+height: 130px;
+font-size: 26px;
+
+}
+.item3-2{
+   display: grid;
+     grid-template-columns: repeat(2,2fr);
+     gap: 20px;
+     padding: 0px;
+    text-align: center;  
+     background: rgba(245, 245, 247, 0.80);
+     width: 650px;
+
+}
+.item3-text{
+    background-color: white;
+    width: 313px;
+    height: 240px;
+    border-radius: 40px;
+    display: flex;
+   align-items: center;
+}
+
+.item3-2 h1{
+    color: #1D1D1F;
+    font-family: Inter;
+    font-size: 22px;
+    background-color: white;
+}
+.blue{
+    animation: my-animation;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+ animation-duration: 10s, 35s, 230ms;
+
+}
+
+.box-container{
+    width: 800px;
+    height: 600px; 
+    padding-top: 400px;
+}
+
+
+@keyframes my-animation {
+ from{
+    right: -30px;
+ }
+  to {
+    right: 100px;
+  }
+}
+.text4-1{
+      position: absolute;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text4-1 h3{
+color: #6E6E73;
+}
+.text4-1 h4{
+   width: 270px;
+   padding-bottom: 5px;
+}
+.text4-1 p{
+    width: 259px;
+}
+.img4-1 img{
+    width: 400px;
+    height: 500px;
+}
+
+.section-5{
+     background: rgba(245, 245, 247, 0.80);
+     height: 200px;
+}
+.latest-4 {
+    font-size:26px ;
+     padding:0px 140px;
+}
+.button-4{
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 100px;
+    gap: 12px;
+     padding:0px 140px;
+}
+.latest4-button{
+   width: 125px;
+   height: 40px;
+   border-radius: 40px;
+   border-style: solid;
+   align-items: center;
+   display: flex;
+   gap: 8px;
+   padding-left:8px;
+   
+}
+.latest4-button img{
+width: 8px;
+height: 8px;
+}
+.latest4-button h1{
+    font-size: 14px;
+}

@@ -34,7 +34,7 @@ background-color: white;
     margin-top: 0.5%;
 }
 .background-1{
-    background-image: url(ec3175b4a85620366114b7dc1d62789aa36c0536.jpg);
+    background-image: url(./background1.jpg);
    width: 100%;
 height: 692px;
 background-position: center;
@@ -85,7 +85,7 @@ border: 1px solid #2997FF;
 
 }
 .background-2{
-    background-image: url(6e2272f55593e27e01766f0a588a5585328895e1.jpg);
+    background-image: url(./Background2.png);
     width: 100%;
     height: 692px;
     background-position: center;
@@ -115,7 +115,7 @@ border: 1px solid #2997FF;
    
 }
 .background-3{
-    background-image: url(039920404089e184b9a9cd5998cf7e5a53e3a3d4.jpg);
+    background-image: url(./background3.jpg);
     width: 100%;
     height: 692px;
     background-position: center;
@@ -139,7 +139,7 @@ border: 1px solid #2997FF;
 .cards-container{
     padding-top: 12px;
     display: grid;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 12px;
 }
 
@@ -150,11 +150,15 @@ border: 1px solid #2997FF;
    align-items: center;
    flex-direction: column;
 padding-top:30px ;
+background-position: center;
 }
+
 .card p{
     font-size: 18px;
     font-family: inter;
+
 }
+.one
 .one{
     background-image: url(./box1.png);
 }
